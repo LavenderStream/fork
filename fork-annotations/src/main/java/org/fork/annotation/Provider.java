@@ -1,13 +1,10 @@
-package com.example;
+package org.fork.annotation;
 
 /**
  * Created by tiny on 5/8/2017.
  */
 
 public interface Provider {
-    void inject(Object obj);
-
+    Object getPresenter(Object obj);
     int getLayoutId();
-
-    Object getViewBinding();
 }

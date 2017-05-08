@@ -1,1 +1,1 @@
-include ':app', ':fork'
+include ':app', ':fork-annotations', ':fork-mvp'
