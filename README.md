@@ -1,3 +1,4 @@
+```
 @ForkLayoutId(R.layout.activity_main)
 @ForkPresenter(MainPresenter.class)
 public class MainActivity extends ForkActivity<ActivityMainBinding, MainPresenter> implements MainContract.View {
@@ -16,3 +17,4 @@ public class MainActivity extends ForkActivity<ActivityMainBinding, MainPresente
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
     }
 }
+```
